@@ -1,9 +1,9 @@
-app:
-    resource: "@AppBundle/Controller/"
+blog:
+    resource: "@BlogBundle/Controller/"
     type:     annotation
     prefix:   /
 
-blog:
-    resource: "@BlogBundle/Controller/"
+app:
+    resource: "@AppBundle/Controller/"
     type:     annotation
     prefix:   /

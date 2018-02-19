@@ -20,7 +20,28 @@
 
     </head>
     <body>
+
+        {% block navigation %}
+            <!-- Navigation -->
+            {{ include('blocs/navigation.html.twig') }}
+        {% endblock %}
+
+        {% block header %}
+            <!-- Page Header -->
+            {{ include('blocs/header.html.twig') }}
+        {% endblock %}
+
         {% block body %}{% endblock %}
+
+        {% block footer %}
+            <!-- Page Header -->
+            {{ include('blocs/footer.html.twig') }}
+        {% endblock %}
+
+        {% block js %}
+            {{ include('blocs/js.html.twig') }}
+        {% endblock %}
+
         {% block javascripts %}{% endblock %}
     </body>
 </html>
